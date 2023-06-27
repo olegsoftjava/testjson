@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "flexible_image_cell_view",
+            "content": {
+              "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+              "hash": "baa7e6542cd583d371f11372f48b24c7",
+	      "accessibility": "A11y: Тест клик по картинке",
+              "size": {
+                "type": "fixed",
+                "width": 120,
+                "height": 120
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
