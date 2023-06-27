@@ -1,8 +1,10 @@
 {
   "items": [
     {
+      "accessibility": "A11y: Тест 0",
       "card": {
         "type": "list_card",
+	"accessibility": "A11y: Тест 1",
         "cells": [
           {
             "type": "flexible_image_cell_view",
