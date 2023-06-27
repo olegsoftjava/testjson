@@ -1,26 +1,49 @@
 {
-  "items": [
-    {
-      "accessibility": "A11y: Тест 0",
-      "card": {
-        "type": "list_card",
-	"accessibility": "A11y: Тест 1",
-        "cells": [
-          {
-            "type": "flexible_image_cell_view",
-            "content": {
-              "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
-              "hash": "baa7e6542cd583d371f11372f48b24c7",
-	      "accessibility": "A11y: Тест клик по картинке",
-              "size": {
-                "type": "fixed",
-                "width": 120,
-                "height": 120
-              }
-            }
+  "card": {
+    "type": "list_card",
+    "cells": [
+      {
+        "type": "flexible_image_cell_view",
+        "content": {
+          "accessibility": "На картинке иконка карандаш",
+          "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+          "hash": "baa7e6542cd583d371f11372f48b24c7",
+          "size": {
+            "type": "fixed",
+            "width": 120,
+            "height": 120
           }
-        ]
+        }
+      },
+      {
+        "type": "image_cell_view",
+        "content": {
+          "accessibility": "На картинке Киану Ривз",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reunião_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg",
+          "hash": "674f9bfa08cf40c180cb3dbe087dc762",
+          "placeholder": "placeholder",
+          "height": 192,
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
+            }
+          ]
+        }
+      },
+      {
+        "type": "flexible_image_cell_view",
+        "content": {
+          "accessibility": "A11y: На картинке автомобиль",
+          "size": {
+            "type": "fixed",
+            "width": 100,
+            "height": 100
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nissan_Qashqai_Cafelatte.JPG/200px-Nissan_Qashqai_Cafelatte.JPG"
+        },
+        "log_id": "custom_log_id"
       }
-    }
-  ]
+    ]
+  }
 }
