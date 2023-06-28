@@ -5,7 +5,7 @@
       {
         "type": "flexible_image_cell_view",
         "content": {
-          "accessibility": "На картинке иконка карандаш",
+          "accessibility": "Иконка карандаша",
           "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
           "hash": "baa7e6542cd583d371f11372f48b24c7",
           "size": {
@@ -16,31 +16,21 @@
         }
       },
       {
-        "type": "image_cell_view",
-        "content": {
-          "accessibility": "На картинке Киану Ривз",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reunião_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg",
-          "hash": "674f9bfa08cf40c180cb3dbe087dc762",
-          "placeholder": "placeholder",
-          "height": 192,
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
-            }
-          ]
-        }
-      },
-      {
         "type": "flexible_image_cell_view",
         "content": {
-          "accessibility": "A11y: На картинке автомобиль",
+          "accessibility": "Фото автомобиля",
           "size": {
             "type": "fixed",
             "width": 100,
             "height": 100
           },
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nissan_Qashqai_Cafelatte.JPG/200px-Nissan_Qashqai_Cafelatte.JPG"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nissan_Qashqai_Cafelatte.JPG/200px-Nissan_Qashqai_Cafelatte.JPG",
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "https://www.google.com/"
+            }
+          ]
         },
         "log_id": "custom_log_id"
       }
