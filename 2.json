@@ -3,30 +3,30 @@
     "type": "list_card",
     "cells": [
       {
-          "type": "operator_chat_cell_view",
-          "placeholder": {
-            "text": "Оператор скоро присоединится",
+        "type": "operator_chat_cell_view",
+        "placeholder": {
+          "text": "Оператор скоро присоединится",
+          "typeface": "body1",
+          "text_color": "default"
+        },
+        "title": {
+          "style": {
+            "typeface": "footnote1",
+            "text_color": "secondary"
+          }
+        },
+        "subtitle": {
+          "style": {
             "typeface": "body1",
             "text_color": "default"
           },
-          "title": {
-            "style": {
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            }
-          },
-          "subtitle": {
-            "style": {
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "margins": {
-              "top": "2x"
-            }
-          },
-          "badge":{
-            "color": "solid_warning"
+          "margins": {
+            "top": "2x"
           }
+        },
+        "badge": {
+          "color": "solid_warning"
+        }
       }
     ]
   }
